@@ -1,0 +1,65 @@
+body {
+  background: #eeeeee;
+  font-family: "Open Sans", "Helvetica Neue", Verdana, sans-serif;
+  font-size: 13px; 
+  margin: 0;
+}
+#page {
+  background: #fff;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 25px;
+  width: 70%;
+}  
+footer {
+  padding-bottom: 10px;
+}
+a {
+  color:#0065b3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+hr {
+  background-color: #E1EBEE; /* #a4343a for Lancaster colours */
+  border: none;
+  height: 1px;
+  margin: 20px 0;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+h2 {
+  font-size: 16px;
+  font-weight: 300;
+}
+ul {
+  list-style: none;
+  padding-left: 17px;
+}
+li {
+  margin-bottom: 10px;
+}
+li::before {
+  content: "\2022";
+  margin: 0 0.5em 0 -15px;
+}
+#position, #interests {
+  font-weight: 600;
+}
+@media screen and (max-width: 500px) {
+  #update {
+    padding-top: 10px;
+    float: left !important;
+    clear: both;
+  }
+  footer {
+    padding-bottom: 35px;
+  }
+}
+
+
